@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.component_id}}
+  description: My python app.
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: eduardopiairo/${{values.component_id}}
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
