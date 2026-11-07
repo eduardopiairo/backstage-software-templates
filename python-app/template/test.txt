@@ -1,0 +1,4 @@
+Hello World this is a test file.
+
+The app name is: ${{values.component_id}}
+The app environment is: ${{values.environment}}
