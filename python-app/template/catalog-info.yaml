@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{values.component_id}}
+  name: ${{values.app_name}}
   description: My python app.
   # Example for optional annotations
   annotations:
-    github.com/project-slug: eduardopiairo/${{values.component_id}}
+    github.com/project-slug: eduardopiairo/${{values.app_name}}
 spec:
   type: service
   owner: development
